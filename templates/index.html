@@ -17,7 +17,7 @@
     
     <div align="center"><button type="submit" class="btn btn-primary">Submit</button></p></div>
 
-</form>   
+</form>
 
 <hr>
 
@@ -28,17 +28,6 @@
     {{ macros.render_field(form2.numRetrieve, placeholder='Retrieve last N DB entries (enter 1-9)', type='numRetrieve', label_visible=false) }}
     
     <div align="center"><button type="submit" class="btn btn-primary">Retrieve</button></p></div>
-
-</form>
-
-
-    <form method="post" action="/index"  id="db_post" name="db_post">
-
-    {{ form1.hidden_tag() }}
-
-    {{ macros.render_field(form1.dbNotes, placeholder='Enter your address', type='dbNotes', label_visible=false) }}
-
-    <div align="center"><button type="submit" class="btn btn-primary">Submit</button></p></div>
 
 </form>
 
