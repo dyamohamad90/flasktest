@@ -1,6 +1,10 @@
 branch-defaults:
   master:
     environment: flask-aws-tutorial-master-env
+environment-defaults:
+  flask-aws-tutorial-master-env:
+    branch: null
+    repository: null
 global:
   application_name: flask-aws-tutorial-master
   branch: null
